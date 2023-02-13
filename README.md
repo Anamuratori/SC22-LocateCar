@@ -33,7 +33,7 @@ Funcionalidades opcionais:
 - Os dados deverão ser gravados em arquivos, simulando uma base de dados;
 
 Projeto em colaboração com:  
-Bruno Santana Lopes
-Eveliny Muniz
-Renan Carneiro
-Washington Ferreira
+Bruno Santana Lopes 
+Eveliny Muniz 
+Renan Carneiro 
+Washington Ferreira 
