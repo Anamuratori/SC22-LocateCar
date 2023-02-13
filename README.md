@@ -24,9 +24,9 @@ Regras de negócio:
 - RN4: Os veículos que estiverem alugados não poderão estar disponíveis;
 - RN5: Agências não podem estar duplicadas;
 - RN6: Clientes não podem estar duplicados;
-- RN7: Regras de devolução:
-        Caso pessoa fisica tenha ficado com o carro mais que 5 dias terá direito a 5% de desconto.
-        Caso pessoa juridica tenha ficado com o carro mais que 3 dias terá direito a 10% de desconto.
+- RN7: Regras de devolução:  
+Caso pessoa fisica tenha ficado com o carro mais que 5 dias terá direito a 5% de desconto.  
+Caso pessoa juridica tenha ficado com o carro mais que 3 dias terá direito a 10% de desconto.
 
 Funcionalidades opcionais:
 - Paginar as listas envolvidas;
