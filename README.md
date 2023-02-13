@@ -1,45 +1,39 @@
-# SC22-LocateCar
-Projeto do modulo 3 do Santander coders
+### SantanderCoders22-Agenda de Contatos :red_circle:
+Exercício final do Módulo 3 (Programação Orientada a Objetos II) do curso de WebFullStack do programa Santander Coders, uma parceria entre AdaTech e Santander.  
+Criação de uma Locadora de Carros com as seguintes funcionalidades:
 
-Lista para não esquecer
+- Cadastrar os veículos;
+- Alterar um veículo cadastrado;
+- Buscar um veículo por parte do nome;
+- Cadastrar a agência onde o veículo será alugado/devolvido;
+- Alterar a agência onde o veículo será alugado/devolvido;
+- Buscar uma agência por parte do nome ou do logradouro do endereço;
+- Cadastrar o cliente (pessoa fisica/juridica)
+- Alterar o cliente (pessoa fisica/juridica)
+- Alugar um veículo para pessoa fisica;
+- Alugar um veículo para pessoa juridica;
+- Devolver um veículo para pessoa fisica;
+- Devolver um veículo para pessoa juridica;
+- Gerar um comprovante com todos os dados do aluguel (aberto para o grupo decidir o que vai ser demonstrado);
+- Gerar um comprovante com todos os dados da devolução (aberto para o grupo decidir o que vai ser demonstrado); 
+ 
+Regras de negócio:
+- RN1: Os veículos não podem ser repetidos;
+- RN2: Tipos de veículos que serão considerados: Carro, Moto, Caminhões;
+- RN3: Os aluguéis e devoluções terão o local, data e horario;
+- RN4: Os veículos que estiverem alugados não poderão estar disponíveis;
+- RN5: Agências não podem estar duplicadas;
+- RN6: Clientes não podem estar duplicados;
+- RN7: Regras de devolução:
+        Caso pessoa fisica tenha ficado com o carro mais que 5 dias terá direito a 5% de desconto.
+        Caso pessoa juridica tenha ficado com o carro mais que 3 dias terá direito a 10% de desconto.
 
-Listar todas as operações
-[X] permitir que o usuário navegue entre as páginas caso o numero de operações supere a quantidade por página informada
-[X] permitir que o usuário adicione uma nova operacao
-[X] permitir que o usuário Exiba mais informações sobre uma operação
+Funcionalidades opcionais:
+- Paginar as listas envolvidas;
+- Os dados deverão ser gravados em arquivos, simulando uma base de dados;
 
-Pesquisar operacao por id de operação
-[x] Cadastrar um id (contrato) para operação.
-- Opções de alteração na data de entrega caso o contrato esteja válido
-- opções de alteração no motorista que está dirigindo
--- Nome do motorista e CNH do motorista
-
-Pesquisar operacao por nome de cliente
--- Exibir uma lista paginada caso existam mais operações que o numero por página 
--- permitir que o usuário exiba mais opções sobre uma operação
-
-Exibição de uma operaçãocompleta
---Permite ver as informações da operação
---permite Editar o motorista de uma operação
---permite Extender o prazo de entrega de uma operação
---Permite Finalizar uma operação
-
-Adicionar uma nova operação bem sucedida, permite que o usuário imprima esta operação
-Adicionar operação
-
-
--Pesquisa uma Agência por ID da agência
--Pesquisa um Cliente por nome do cliente ou cpf
-- Verifica a lista de carros páginada Disponíveis na agência para escolha
-- Informa as datas
-
-Finalizar Operação
--- Caso seja entregue na mesma agência, apenas deixar carros disponível
--- Caso seja entregue em uma outra agência, realocar carro entre agencias
--- Caso seja entregue antes do prazo, dar o desconto proporcional aos dias 
-
--------------------------------
-Verificar a possibilidade de atribuir o carro a agencia
-Verificar a possibilidade de criação das pesquisas de costumer por nome e cpf
-Verificar a possibilidade de inclusão de Id nas agências
-
+Projeto em colaboração com:  
+Bruno Santana Lopes
+Eveliny Muniz
+Renan Carneiro
+Washington Ferreira
